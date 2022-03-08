@@ -88,11 +88,14 @@ WSGI_APPLICATION = 'BlogAPI.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ddhq9on5mnjtdd',
+        'HOST': 'ec2-52-207-74-100.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'ykkuupliqpzljo',
+        'PASSWORD': '93db9ffbe1ef30916ce56659703b2fcc65783f673fea4b4ee6dda0d121b71441'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
